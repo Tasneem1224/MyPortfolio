@@ -1,11 +1,14 @@
 {
+  "homepage": "https://Tasneem1224.github.io/MyPortfolio",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview"
   },
