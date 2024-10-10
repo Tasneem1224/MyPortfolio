@@ -13,7 +13,7 @@ const About = () => {
             initial={{ transform: "scale(0)" }}
             animate={{ transform: "scale(1.1)" }}
             transition={{ demping: 6, type: "spring", stiffness: 100 }}
-            src="./photo.png"
+            src="./images/photo.png"
             className="avatar"
             alt=""
           />

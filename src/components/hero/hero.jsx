@@ -7,7 +7,7 @@ const Hero = () => {
     <section className="hero flex">
       <div className="lsection">
         <div className="pavatar">
-          <img src="./photo.png" className="avatar" alt="" />
+          <img src="./images/photo.png" className="avatar" alt="" />
         </div>
         <h1 className="title">Graphic Designer</h1>
         <p className="subtitle">
